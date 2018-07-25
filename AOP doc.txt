@@ -1,0 +1,62 @@
+annotating class with aspect is making aspect 
+
+methods in Aspects are advice
+
+Basic concept is to do something before or after some method run
+
+It looks for aspect in configured beans only
+
+We can specify class name if we want to give advice for func of particular class
+
+now if we want to apply same advice to many methods we can use wildcards eg. public * get*(){}  so these are wilddcards 
+
+* for 1 or more argument  and .. for zero or more argument.... So this is for one advice at multiple points
+
+
+now other way round single point multiple advice.for this you will have to give all advices those points.this can be easily done by pointcuts.+
+
+so now pointcut-all the points in your code where you want that your advice method cut in
+
+so we define pointcut by @Pointcut and it is annotated on method
+
+within(Sampleclass) - it will make pointcut in all methods of Sampleclass. it is similar to  execution(* * SampleClass.*(..)).it can be done for all the methods in the package also package.*;
+
+execution( ) have methods , within have classes.Best practice is using combination of pointcuts.
+
+args(Sampleclass)  it will make all methods pointcut which have Sampleclass as argument
+
+
+So if we use within() , irrespective of what method is being called , advice will have same implementation of all the methods. Eg getters, setters have same advice implementation
+
+Joinpoints have actual information which method is being called.we can specify joinpoints in arguments of advice.we can get those methods.
+we can also get the objects whose method is called, by joinpoint.getTarget().
+
+ args(name) fun(String name){}  will get us argument passed (name) , will also give info that name is String , so args will know the datatype and also the argument and we can use that
+
+
+aspect is doing only on methods executed by us not on the methods done by spring
+
+@after will run after function,irrespective of function executed correctly or not
+
+@AfterReturning will run only after successful execution of function,noton exceptions
+
+@AfterTHrowing will run if any exception has occured
+
+we can get argments passed to the functions as well as we can get the object returned by the func , we cant change it but can use it
+
+returning = "returningObject" fun(String returningObject) will get the return type from fun
+so it will giv advice only on whose return type is String ,
+if we want any return type we can change it to object
+
+
+Similarily for exception throwing = "throwingException"
+
+@Around proceeding joinpoints
+
+Custom annotation - if you want to apply advice on selective methods
+need to create a interface lets say loggable,
+have to annotate particular method with custom annotation 
+have to specify in aspect class to any advice @Around("annotation(classname)") 
+
+
+Proxy-we make a call to method A, but call goes to class B which will internally call to class A

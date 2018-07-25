@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/core.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/ibatis.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/j2ee.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/javaconfig.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/misc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/persistCore.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/persistJdbc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/persistJDO.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/remoting.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/test.zip"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/web.zip"/>
+	<classpathentry kind="lib" path="C:/aspectj1.9/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="C:/aspectj1.9/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/cglib-3.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/asm-6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/spcorejars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop/com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop/org.springframework.aop-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop/org.springframework.aspects-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop/org.springframework.instrument.tomcat-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/Compressed/springjars/aop/org.springframework.instrument-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
